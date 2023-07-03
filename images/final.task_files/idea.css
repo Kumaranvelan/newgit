@@ -1,0 +1,436 @@
+
+@media screen {
+  
+.body{
+   
+  border: 50px solid  whitesmoke;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100%;
+    background-position: center;
+    height: max-content;
+   box-sizing: content-box;
+    box-sizing: border-box;   
+}
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(82, 125, 189);
+    
+}
+.header{
+    display: flex;
+    padding: 30px;
+    
+}
+#logo{
+    flex: 1;
+    font-size: 1.25em;
+}
+.nav{
+  flex:2;
+  display: flex; 
+}
+.button1{
+padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px ;
+  cursor: pointer;
+}
+.button4{
+  background-color:rgb(7, 7, 56) ;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer; 
+}
+.nav a{
+    flex: 5;
+}
+
+.tag1{
+    font-size: 90px;
+}
+.tag2{
+    font-size: 80px;
+}
+.tag3{
+    font-size: 90px;
+}
+
+.font{
+  font-size: x-small;
+}
+.flex-container{
+    background-color:rgb(7, 7, 56); 
+    display: flex;
+}
+.flex-container >div{
+    color: beige;
+    flex: 3;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+    column-rule-style: solid;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-width: 1px;
+  }
+  .flex-cont1{
+    display: flex;
+ 
+  }
+  .flex-cont1 > div {
+    color:  rgb(38, 38, 70);
+    width: 220px;
+    height: 250px;
+    background-color: #b6afaf;
+    margin: 10px;
+    padding: 25px;
+    font-size: 20px;
+  }
+  .get{
+    background-color:  rgb(38, 38, 70);
+    color: azure;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer; 
+  }
+  .button5{
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer; 
+  }
+
+  
+  .head1{
+    color:rgb(7, 7, 56); 
+    font-size: 55px;
+    position: absolute;
+    left: 650px;
+  }
+  .flexcont1 > h4{
+    float: right;
+  }
+.flex-cont2{
+    display: flex;
+}
+  .flex-cont2 > div {
+    color:  rgb(38, 38, 70);
+    width: 220px;
+    height: 250px;
+    background-color: #b6afaf;
+    margin: 10px;
+    padding: 25px;
+    font-size: 20px;
+  }
+  .h4{
+    color:  rgb(38, 38, 70);
+    position: absolute;
+    right:10px;
+    top:1160px;
+    left: 650px;
+  }
+  .h3{
+    color:  rgb(38, 38, 70);
+    position: absolute;
+    right: 10px;
+    top: 1300px;
+    left: 650px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+  }
+  .h5{
+    color: rgb(38, 38, 70);
+    font-size: 47px;
+    position: absolute;
+    top: 1500px;
+    left: 50px;
+    padding-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: fit-content;
+  }
+  .p2{
+    color: rgb(38, 38, 70);
+    font-size: 20px;
+    position: absolute;
+    top: 1770px;
+    left: 80px;
+  }
+
+  .h6{
+    color:  rgb(38, 38, 70);
+    position: absolute;
+    right: 650px;
+    top: 1900px;
+    left: 80px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+  }
+  .h7{
+    color:  rgb(38, 38, 70);
+    position: relative;
+    font-size: 40px;
+    right: 650px;
+    top: 450px;
+    left: 10px;
+    padding-bottom: 40px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: fit-content;
+  }
+  .side{
+    color:  rgb(38, 38, 70);
+    position: relative;
+    font-size: 25px;
+    top: 360px;
+    right: 0px;
+    left: 900px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+  }
+  .page4{
+    font-size: 20px;
+    position: absolute;
+    top: 2150px;
+    right: 700px;
+  }
+ 
+
+.color{
+    color:  rgb(38, 38, 70);
+  }
+  .img{
+    float: right;
+    border: 1px thin;
+    position: relative;
+    right: 100px;
+  }
+  .shortp{
+    position: relative;
+    top: 350px;
+    left: 18px;
+    color:  rgb(38, 38, 70);
+    font-size: 20px;
+  }
+  .img{
+    float: right;
+    border: 1px thin;
+  }
+ .nav2{
+  list-style-type: none;
+  text-align:left;
+ }
+ .nav2 li{
+  display: inline-block;
+  font-size: 15px;
+  padding: 45px;
+ }
+
+ .imggallery{
+  float: left;
+  width: 220px;
+  margin: 80px;
+  border: 100x double wheat
+ }
+ .dis{
+  display: flex;
+  position: relative;
+  top: 100px;
+ }
+
+.center{
+  color: rgb(38, 38, 70) ;
+position: absolute;
+left: 500px;
+padding-bottom: 20px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+width: fit-content;
+
+}
+.center2{
+  color:  rgb(38, 38, 70);
+  position:absolute;
+  left: 440px;
+}
+.flex2{
+  display: flex;
+}
+.flex{
+  position: absolute;
+  left: 140px;
+  background-color: rgb(62, 77, 109) ;
+  color: whitesmoke;
+  overflow: visible;
+  height: 220px;
+  width: 500px;
+  padding: 20px;
+}
+
+.flex1{
+ position: absolute;
+ left: 700px;
+  background-color: rgb(62, 77, 109) ;
+  color: whitesmoke;
+  overflow: visible;
+  height: 220px;
+  width: 320px;
+  padding: 20px;
+}
+.final5{
+  
+text-align: center; 
+  font-size: 40px;
+  color: rgb(38, 38, 70) ;
+
+}
+.subfinal{
+  
+
+  text-align: center;
+  color: rgb(38, 38, 70);
+  font-size: 20px;
+}
+.subfinal2{
+  position:relative;
+  top: 50px;
+  left: 100px;
+  font-size: 20px;
+  color: rgb(38, 38, 70);
+}
+.button{
+  position: relative;
+  left: 420px;
+  top: 30px;
+  cursor: pointer;
+  padding: 10px ;
+  width: 150px;
+}
+.buttons2{
+  color: white;
+  position: relative;
+  left: 470px;
+  top: 30px;
+  background-color:  rgb(38, 38, 70);
+  padding: 10px ;
+  cursor: pointer;
+  width: 150px;
+}
+.head2{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(38, 38, 70);
+  width:auto;
+  height: 60px;
+  color: bisque;
+
+}
+#logo2{
+font-size: 30px;
+color: bisque;
+padding: 20px;
+position: relative;
+left: 0px;
+top: 10px;
+
+}
+.last{
+  padding: 2px;
+  color: white;
+}
+.last  a{
+ display: inline-block;
+ font-size: medium;
+  padding: 10px;
+  position: relative;
+  top: -30px;
+  left: 400px;
+}
+#logo3{
+  color: bisque;
+  padding: 20px;
+  position: relative;
+   left: 1070px;
+   top: -70px;
+   font-size: 30px;
+}
+.star{
+  position: absolute;
+  left: 80px;
+  top: 3550px;
+}
+.star2{
+  position: absolute;
+  left: 1150px;
+  top: 3850px;
+  
+}
+.dq{
+ border-radius: 150px;
+  position: relative;
+  z-index: 1;
+  left: 140px;
+  top: -80px;
+}
+.dq2{
+  border-radius: 200px;
+  position: relative;
+  z-index: 1;
+  left: 25px;
+  top: -90px;
+}
+.position{
+  position: relative;
+  top: -90px;
+
+}
+.dp{
+  position: relative;
+  border-radius: 50px;
+  top: 30px;
+
+}
+.dp2{
+  position: relative;
+  border-radius: 100px;
+  top: 26px;
+}
+
+.adjust3{
+  position: relative;
+  top: 40px;
+}
+.adjust4{
+  position: relative;
+  top: 40px;
+}
+.strong{
+  position: relative;
+  left: 80px;
+}
+
+.strong1{
+  position: relative;
+  left: 80px;
+}
+.strong2{
+  position: relative;
+  left: 80px;
+}

@@ -1,0 +1,88 @@
+
+
+.body ,h2{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.landing{
+    background-image: url(burger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:white;
+}
+header a{
+    text-decoration: none;
+    color:yellow; 
+    
+}
+.header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 2em;
+}
+.nav{
+  flex:2 ;
+  display: flex; 
+}
+.nav a{
+    flex: 1;
+}
+.nav a:hover{
+    color: chocolate;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 2em;
+    justify-content: center;
+}
+
+.tagline1{
+    color: blanchedalmond;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: coral;
+}
+.maintext div{
+    margin-top: .75em
+}
+.maintext button{
+    width: 20vw;
+    margin: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: yellow;
+    color: brown;
+    border: 1px solid yellow;
+}
+
+.menu1{
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    background:linear-gradient(to right,rgb(190,100,100),rgb(220,120,120),rgb(200,150,150));
+    color: blanchedalmond;
+}
+#menuheading,#locheading{
+    background:linear-gradient(to right,rgb(190,100,100),rgb(220,120,120),rgb(200,150,150));
+    font-size: 2.5em;
+    color: yellow;
+    justify-content: center;
+}
+.menu th{
+    font-size: 1.8em;
+    color: rgb(100,100,200);
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+
